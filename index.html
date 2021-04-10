@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure CSS Tabs</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Pure CSS Tab Example</h2>
+        <div id="tabWrap">
+            <input type="radio" name="tabButton" id="tab1Button" checked>
+            <input type="radio" name="tabButton" id="tab2Button">
+            <input type="radio" name="tabButton" id="tab3Button">
+            <input type="radio" name="tabButton" id="tab4Button">
+            <div class="navigation">
+                <label for="tab1Button" class="tab1Button">Tab 1</label>
+                <label for="tab2Button" class="tab2Button">Tab 2</label>
+                <label for="tab3Button" class="tab3Button">Tab 3</label>
+                <label for="tab4Button" class="tab4Button">Tab 4</label>
+                <div class="activeBack"></div>
+            </div>
+            <div class="tabsWrap">
+                <div id="tab1" class="tabContent">
+                    <h3>This is my 1st tab and content.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et neque ut lectus dapibus pellentesque. Nunc pellentesque aliquet lacus, eu mollis quam convallis eu. Nulla sit amet justo posuere, gravida metus et, commodo enim. Proin scelerisque pellentesque tempor. Nulla dapibus finibus tristique. Vivamus eu felis sed erat interdum tincidunt. Phasellus ut elementum ante.</p>
+                </div>
+                <div id="tab2" class="tabContent">      
+                    <h3>This is my 2nd tab and content.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et neque ut lectus dapibus pellentesque.</p>
+                </div>
+                <div id="tab3" class="tabContent">
+                    <h3>This is my 3rd tab and content.</h3>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et neque ut lectus dapibus pellentesque. Nunc pellentesque aliquet lacus, eu mollis quam convallis eu. Nulla sit amet justo posuere, gravida metus et, commodo enim. Proin scelerisque pellentesque tempor.</p>  
+                </div>
+                <div id="tab4" class="tabContent">
+                    <h3>This is my 4th tab and content.</h3>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et neque ut lectus dapibus pellentesque. Nunc pellentesque aliquet lacus, eu mollis quam convallis eu. Nulla sit amet justo posuere, gravida metus et, commodo enim. Proin scelerisque pellentesque tempor. Nulla dapibus finibus tristique.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
